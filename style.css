@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg&uid=A);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 30px;
+  font-family: 'Great Vibes', cursive;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+  padding-bottom: 30px;
+  margin-top: 5px;
+}
+
+input[type=text], input[type=textarea], input[type=email], input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 25px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #1f4068;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0 25px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input[type=submit]:hover {
+  background-color: #162447;
+}
+
+#survey-form {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #000839;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: auto;
+  opacity: 0.8;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+}

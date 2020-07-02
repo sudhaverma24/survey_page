@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking your precious time to help us.</p>
+
+    <form class="" action="index.html" method="post" id="survey-form">
+
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" name="" value="" placeholder="Enter your name" required>
+
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" name="" value="" placeholder="Enter your Email" required>
+
+      <label for="number" id="number-label">Age</label>
+      <input id="number" type="number" name="" value="18" min="18" max="100" placeholder="Enter your age">
+
+      <label for="dropdown">What is your highest qualification?</label>
+      <select class="" name="" id="dropdown" required>
+        <option  disabled selected value="">--Please choose an option--</option>
+        <option value="">Intermediate</option>
+        <option value="">Graduation</option>
+        <option value="">Post Graduation</option>
+        <option value="">Other</option>
+      </select>
+
+      <p>Which way would you like to attend the training session?</p>
+      <input type="radio" id="online" name="class" value="online">
+      <label for="online">Online</label><br>
+      <input type="radio" id="Offline" name="class" value="Offline">
+      <label for="Offline">Offline</label><br>
+      <input type="radio" id="both" name="class" value="both">
+      <label for="both">Both</label><br>
+
+      <p>Which technology would you like to learn at present?</p>
+      <input type="checkbox" name="technology1" value="Artificial Intelligence">
+      <label for="">Artificial Intelligence</label><br>
+      <input type="checkbox" name="technology2" value="Blockchain">
+      <label for="">Blockchain</label><br>
+      <input type="checkbox" name="technology3" value="AWS">
+      <label for="">AWS</label><br>
+      <input type="checkbox" name="technology4" value="AR and VR">
+      <label for="">AR and VR</label><br>
+      <input type="checkbox" name="technology4" value="Mobile App Development">
+      <label for="">Mobile App Development</label><br>
+      <input type="checkbox" name="technology4" value="IoT">
+      <label for="">IoT</label><br>
+      <input type="checkbox" name="technology4" value="Other">
+      <label for="">Other</label><br>
+
+      <p>Any comments or suggestions?</p>
+      <textarea name="name" rows="10" cols="40" placeholder="Enter your comment here..."></textarea>
+      <input type="submit" name="submit" value="Submit" id="submit">
+    </form>
+  </div>
+</body>
+</html>
